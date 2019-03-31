@@ -1,3 +1,16 @@
+<html>
+  <head>
+    <title>3121Testing</title>
+    <script type="text/javascript"> 
+      var queryString = window.location.search.slice(1); 
+      // if query string exists 
+      if (queryString) { 
+      qString = queryString.split('q=')[1].split('&')[0]; 
+      alert(qString); } 
+    </script>
+   </head>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hong31212019/31212019.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
