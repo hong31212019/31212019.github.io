@@ -6,7 +6,8 @@
       // if query string exists 
       if (queryString) { 
       qString = queryString.split('q=')[1].split('&')[0]; 
-      alert(qString); } 
+      alert(qString); 
+      } 
     </script>
    </head>
 
