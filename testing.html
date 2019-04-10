@@ -34,7 +34,7 @@ console.log(farmId + ", " + serverId + ", " + id + ", " + secret + ", " + owner_
 //  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
 
 $("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
-echo "</a> Owner: ";
+$("#flickr").append(owner_name);
  });
 });
 
